@@ -8,6 +8,27 @@
     #2c1810 -> Usada no h2 do sobre
 
 */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--ColorText);
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--ColorHeader);
+    padding: 5px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+   z-index: 10;
+}
+
 :root {
     --ColorHeader: #2c1810;
     --ColorText: #333;
@@ -15,11 +36,31 @@
     --btn-hover: #fecf91;
 }
 
-body {
+.titulo-cabeça {
+    color: white;
+    font-size: 2em;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.nav-link>li>a {
+    text-decoration: none;
     color: white;
 }
 
-header {
-    background-color: var(--ColorHeader);
-
+.nav-link>li>a:hover {
+    color: var(--hover);
 }
