@@ -8,3 +8,18 @@
     #2c1810 -> Usada no h2 do sobre
 
 */
+:root {
+    --ColorHeader: #2c1810;
+    --ColorText: #333;
+    --hover: #deb887;
+    --btn-hover: #fecf91;
+}
+
+body {
+    color: white;
+}
+
+header {
+    background-color: var(--ColorHeader);
+
+}
