@@ -56,11 +56,50 @@ header {
     gap: 12px;
 }
 
-.nav-link>li>a {
+.nav-link > li > a {
     text-decoration: none;
     color: white;
 }
 
-.nav-link>li>a:hover {
+.nav-link > li > a:hover {
     color: var(--hover);
+}
+
+.hero {
+    background: linear-gradient(rgba(44, 24, 16, 0.7), rgba(44, 24, 16, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    height: 100vh;
+    color: white;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-conteudo > h1 {
+    font-size: 2.3em;
+}
+
+.text-hero {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.text-hero > a {
+    display: inline-block;
+    padding: 12px;
+    background-color: #deb887;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
