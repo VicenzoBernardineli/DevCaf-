@@ -10,3 +10,10 @@ Desenvolvido por tecnologias da web (
 Acesse o projeto para ver como ele ficou!
 
 👉https://vicenzobernardineli.github.io/DevCafe
+
+## 📱Tecnologias Usadas
+
+* HTML
+* CSS
+* JavaScript
+* Git e Github
