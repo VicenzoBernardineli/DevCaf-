@@ -26,7 +26,11 @@ header {
     top: 0;
     width: 100%;
     position: fixed;
-   z-index: 10;
+    z-index: 10;
+}
+
+h1 {
+    color: white;
 }
 
 :root {
@@ -110,4 +114,29 @@ header {
 .btn:hover {
     transform: translateY(-5px);
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.391);
+}
+
+.sobre {
+    padding: 5rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.sobre h2 {
+    color: var(--ColorHeader);
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.sobre p {
+    font-size: 1.1em;
+    margin: 0 auto;
+    max-width: 800px;
+    color: #666666;
 }
