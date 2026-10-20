@@ -140,3 +140,42 @@ h1 {
     max-width: 800px;
     color: #666666;
 }
+
+.destaque {
+    background-color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.conteudo {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.destaque h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--ColorHeader);
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.hero-destaque {
+    padding: 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero-destaque:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 4px 8px 0px #0000005f;
+}
